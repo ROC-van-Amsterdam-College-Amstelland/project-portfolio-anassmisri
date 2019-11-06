@@ -103,7 +103,7 @@ body {
   .pietmondriaan{
     font-size: 150px;
     height: 150px;
-    margin-left: 450px;
+    margin-left: 220px;
     margin-top: 100px;
   }
   .jsopd{
@@ -260,5 +260,15 @@ input[type=submit]:hover {
 }
 .github{
  margin-top: 100px;
+}
+.like-counter {
+  color: #000;
+  text-decoration: none;
+  margin-right: 5px;
+    
+
+}
+.liked {
+  font-weight: bold;
 }
 

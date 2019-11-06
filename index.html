@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -30,12 +33,27 @@
          
           <p>Aangenaam ,
             ik ben Anass Misri geboren op 26, augustus 2002,In Amsterdam. <br>
-            Ik ben bezig met de opleiding applicatie ontwikkelaar op het ROC Van Amsterdam,<br>
+            Ik ben momenteel bezig met de opleiding applicatie ontwikkelaar op het ROC Van Amsterdam,<br>
             locatie Amstelland.
-            Wat ik wil in de ICT, is projectleider worden in de IT,<br>
-             door middel op de hbo de opleiding te kiezen It business and management. 
+            Wat ik wil in de ICT? is projectleider worden in de IT,<br>
+             door middel op het hbo de opleiding te kiezen It business and management. 
+             Meer lezen zie Over-mij.<br>
+             <br>
+
+             Vind je het een mooie site ? <br>
+             Geef ons een like door op de link te drukken like links van dit bericht.
             </p>
-            
+            <a href="#" class="like-counter">Like</a><span class="click-text"><a id="clicks"></span>
+              <script>var clicks = 14;
+
+                  document.getElementById("clicks").innerHTML = clicks;
+                  
+                  $('.like-counter').click(function() {
+                    clicks += 1;
+                    document.getElementById("clicks").innerHTML = clicks;
+                    $('.like-counter').addClass("liked");
+                  });</script>
+
  
     </header>
 </body>
