@@ -271,4 +271,14 @@ input[type=submit]:hover {
 .liked {
   font-weight: bold;
 }
+.github1{
+  display: flex;
+  align-self: flex-end;
+  text-align: left;
+  text-decoration: none;
+
+}
+.linkedin{
+  text-decoration: none;
+}
 
